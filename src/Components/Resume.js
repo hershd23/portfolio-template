@@ -31,7 +31,7 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return (
           <li key={skills.name}>
-            <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
+             {/*<span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span>*/}<em>{skills.name}</em>
           </li>
         )
       })
@@ -80,8 +80,22 @@ class Resume extends Component {
             </p>
 
 				<div className="bars">
-				   <ul className="skills">
-					  {skills}
+				  <ul className="skills">
+					  { /*skills */}
+            <h1>Languages</h1>
+            <p>C, C++, Python, Java(Intermediate), JavaScript</p>
+
+            <h1>Machine Learning Frameworks/Libraries</h1>
+            <p>Pytorch, Tensorflow, Scikit-Learn</p>
+
+            <h1>Frontend Web Development</h1>
+            <p>HTML, CSS, ReactJS, Material-UI</p>
+
+            <h1>Backend Web Development</h1>
+            <p>Django, Flask</p>
+
+            <h1>Mobile Application Development</h1>
+            <p>Android Studio, Flutter</p>
 					</ul>
 				</div>
 			</div>

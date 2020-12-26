@@ -19,8 +19,8 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2017 Nordic Giant</li>
-              <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+              <li>&copy; Template code can be found at ... </li>
+              <li>Forked from a project by <a title="Styleshout" href="https://github.com/nordicgiant2/react-nice-resume">Nordic Giant</a></li>
            </ul>
 
         </div>
